@@ -1,0 +1,108 @@
+/* DEFAULT VALUES */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+/******************/
+
+nav {
+  height: 10vh;
+  /**/
+  background-color: rgb(240, 240, 240);
+  /**/
+}
+
+.nav-item-container {
+  height: 10vh;
+  /**/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-item {
+  /**/
+  color: rgb(100, 100, 100);
+  /**/
+  font-size: 0.85rem;
+  /**/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  /**/
+  transition: 400ms ease;
+}
+
+#logo {
+  /**/
+  color: rgb(100, 100, 100);
+  /**/
+  font-size: 1rem;
+  /**/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  /**/
+}
+
+a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
+
+img {
+  margin-bottom: 5rem;
+}
+
+.nav-item:hover {
+  background-color: rgb(200, 200, 200);
+  /**/
+  font-size: 1.1rem;
+  /**/
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+#main-content {
+  /* TODO: Remove this height after putting all the content*/
+  /* height: 80vh; */
+  /**/
+  background-color: white;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+#home-content {
+  width: 80vw;
+  padding-left: 4rem;
+  padding-top: 4rem;
+}
+
+footer {
+  height: 10vh;
+  /**/
+  background-color: rgb(220, 220, 220);
+  color: rgb(100, 100, 100);
+  /**/
+  font-size: 0.6rem;
+  /**/
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
